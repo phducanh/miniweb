@@ -1,0 +1,48 @@
+/*** App styles ***/
+
+@font-face {
+ font-family: "InterTight";
+ src: local("Inter_Tight"),
+  url("../assets/fonts/Inter_Tight/InterTight-VariableFont_wght.ttf") format("truetype");
+}
+
+html {
+  font-size: 14px;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: "InterTight";
+}
+
+img {
+  display: block;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+* {
+  box-sizing: border-box;
+}

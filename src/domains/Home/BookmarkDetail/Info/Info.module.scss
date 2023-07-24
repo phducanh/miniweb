@@ -1,0 +1,80 @@
+@use './styles/variable' as variable;
+
+.container {
+  padding: 12px 8px;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+.infoDetail {
+  flex: 1;
+  margin-right: 8px;
+  font-size: 16px;
+  color: #1c1c1c;
+  white-space: pre-line;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.editInput {
+  width: 100%;
+  border: none;
+  font-family: 'InterTight';
+  font-size: 16px;
+  background-color: #f7f7f7;
+  resize: none;
+  padding: 0px;
+}
+
+.infoButton {
+  display: flex;
+}
+
+.editIcon {
+  padding: 3px 10px;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: variable.$saveday-offwhite-color;
+  color: variable.$saveday-grey-color;
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  min-width: 50px;
+  text-align: center;
+}
+
+.saveIcon {
+  padding: 3px 10px;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: variable.$saveday-yellow-color;
+  color: variable.$saveday-black-color;
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  min-width: 50px;
+  text-align: center;
+}
+
+.editInput:hover {
+  border-color: #f7f7f7;
+}
+
+.editInput:focus {
+  outline: none;
+  border-color: #f7f7f7;
+}

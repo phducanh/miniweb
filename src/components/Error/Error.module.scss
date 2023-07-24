@@ -1,0 +1,37 @@
+@use './styles/variable' as variable;
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  background-color: variable.$saveday-offwhite-color;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  color: variable.$saveday-black-color;
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.description {
+  font-size: 16px;
+  color: #808080;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
